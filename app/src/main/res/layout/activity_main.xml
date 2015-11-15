@@ -1,0 +1,169 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.molarity.molarity.MainActivity"
+    android:background="@mipmap/background"
+    android:baselineAligned="false">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/dashboard"
+        android:id="@+id/dashboard"
+        android:textIsSelectable="true"
+        android:background="@mipmap/dashboard"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="3"
+        android:layout_margin="30dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/mass_from_volume"
+                android:layout_column="0"
+                android:background="@drawable/dashboard_button_mass"
+                android:contentDescription="@string/dashboard_button_mass_from_volume"
+                android:layout_weight="1"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/volume_from_mass"
+                android:layout_column="1"
+                android:background="@drawable/dashboard_volume_from_mass"
+                android:contentDescription="@string/dashboard_button_volume_from_mass"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/molarity_from_mass"
+                android:layout_column="0"
+                android:background="@drawable/dashboard_molarity_from_mass"
+                android:contentDescription="@string/dashboard_button_molarity_from_mass"
+                android:layout_weight="1"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/dilute"
+                android:layout_column="1"
+                android:background="@drawable/dashboard_dilute"
+                android:contentDescription="@string/dilute_a_stack"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp" />
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:id="@+id/imageView"
+            android:background="@drawable/genesee_scientific"
+            android:layout_gravity="center" />
+
+        <TextView
+            style="@style/WhiteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="\@2015 Genesee Scientific Corporation"
+            android:id="@+id/textView4"
+            android:layout_gravity="center"
+            android:textSize="10dp"
+            android:layout_marginTop="3dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/more_app_bg">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView7"
+            android:background="@drawable/four_rect"
+            android:layout_gravity="center"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="MORE APPS"
+            android:id="@+id/more_app"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="23dp"
+            style="@style/WhiteText"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

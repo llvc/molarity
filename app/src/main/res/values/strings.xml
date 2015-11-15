@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">Molarity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    //main page
+    <string name="dashboard">Molarity Calculator</string>
+    <string name="dashboard_button_mass_from_volume">mass</string>
+    <string name="dashboard_button_volume_from_mass">volume</string>
+    <string name="dashboard_button_molarity_from_mass">dashboard_button_molarity_from_mass</string>
+    <string name="dilute_a_stack">dilute</string>
+    <string name="dash_logo">dash_logo</string>
+    <string name="more_app">more_app</string>
+    <string name="title_activity_calculate">CalculateActivity</string>
+    <string name="backButton">backButton</string>
+    <string name="topbar">topbar</string>
+    <string name="firstFieldLabel">Medium Text</string>
+    <string name="secondFieldLabel">Medium Text</string>
+    <string name="thirdFieldLabel">Medium Text</string>
+    <string name="calculatButton">calculatButton</string>
+    <string name="geneseeFormulaWeightButton">geneseeFormulaWeightButton</string>
+    <string name="saveFormulaButton">saveFormulaButton</string>
+    <string name="savedFormulaButton">savedFormulaButton</string>
+    <string name="molarityWhiteImage">molarityWhiteImage</string>
+    <string name="clearFieldButton">clearFieldButton</string>
+    <string name="geneseeWhiteImage">geneseeWhiteImage</string>
+    <string name="title_activity_mass">MassActivity</string>
+    <string name="title_activity_volume">VolumeActivity</string>
+
+    //spinner
+    <string-array name="concentration_unit_array">
+        <item>molar</item>
+        <item>millimolar</item>
+        <item>micromolar</item>
+        <item>nanomolar</item>
+        <item>picomolar</item>
+        <item>fentomolar</item>
+    </string-array>
+
+    <string-array name="mass_unit_array">
+        <item>kilogram</item>
+        <item>gram</item>
+        <item>milligram</item>
+        <item>microgram</item>
+    </string-array>
+
+    <string-array name="volume_unit_array">
+        <item>liter</item>
+        <item>milliliter</item>
+        <item>microliter</item>
+    </string-array>
+
+    //mass view
+    <string name="concentration_label">Concentration:</string>
+    <string name="formula_weight_label">Formula Weight:</string>
+    <string name="volume_label">Volume:</string>
+    <string name="mass_label">Mass:</string>
+    <string name="stock_concentration_label">Stock Concentration:</string>
+    <string name="desired_concentration_label">Desired Concentration:</string>
+    <string name="desired_volume_label">Desired Volume:</string>
+    
+    //listview
+    <string name="genesee_cat">Genesee Cat#</string>
+    <string name="description">Description</string>
+    <string name="title_activity_molarity">MolarityActivity</string>
+    <string name="title_activity_dilute">DiluteActivity</string>
+
+    //message
+    <string name="save_success">Saved successfully.</string>
+    <string name="value_dupulicated">The value exists already.</string>
+    <string name="rename_fail">Rename failed.</string>
+
+    //dialog
+    <string name="rename_subtitle">Enter description for this formula weight.</string>
+    <string name="all_fields_required">All fields are required.</string>
+    <string name="continue_title">continue</string>
+
+    //unit title
+    <string name="kilogram_title">KILOGRAM</string>
+    <string name="gram_title">GRAM</string>
+    <string name="milligram_title">MILLIGRAM</string>
+    <string name="microgram_title">MICROGRAM</string>
+    <string name="nanogram_title">NANOGRAM</string>
+
+    <string name="picoliter_title">PICOLITER</string>
+    <string name="nanoliter_titer">NANOLITER</string>
+    <string name="microliter_titer">MICROLITER</string>
+    <string name="milliliter_title">MILLILITER</string>
+    <string name="liter_title">LITER</string>
+
+    <string name="picomolar_title">PICOMOLAR</string>
+    <string name="nanomolar_title">NANOMOLAR</string>
+    <string name="micromolar_title">MICROMOLAR</string>
+    <string name="millimolar_title">MILLIMOLAR</string>
+    <string name="molar_title">MOLAR</string>
+
+    <string name="impossible_title">Impossible</string>
+    <string name="title_activity_moreapp">MoreappActivity</string>
+
+    //keyboard
+    <string name="prev_button">PREV</string>
+    <string name="next_button">NEXT</string>
+    <string name="done_button">DONE</string>
+</resources>
