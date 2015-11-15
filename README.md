@@ -8,5 +8,5 @@ This is a project for chemical scientist.
 you can calculate volume, molarity, dilution, mass.
 
 <H5>Technique</H5>
-List view
-Calc formula
+List view, Calc formula
+https://github.com/llvc/molarity/blob/master/portfolio/Screenshot_2015-11-04-21-55-16.png
